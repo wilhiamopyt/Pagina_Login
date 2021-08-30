@@ -16,18 +16,18 @@
         </nav>
     </div>
     <div class="container">
-        <div class="row justify-content-md-center" >
+        <div class="row justify-content-md-center" id="teste" >
             <div id="divcentral" class="col col-lg-2">
-                <img src="img/person-circle.svg" alt=""class="rounded mx-auto d-block" width="25px">
+                <img src="img/person.svg" alt=""class="rounded mx-auto d-block" width="50px">
                 <form action="dados.php"method="POST">
                     <div><label for="user">Usuario</label>
                     <input type="text" name="usuario" id=""/>
                     </div>        
                     <div><label for="password">Senha </label>
                     <input type="password" name="senha"/>
-                    </div>
-                    <div>
-                    <input type="submit" value="Entrar" >
+                    </div><br>
+                    <div id="botao">
+                    <input type="submit" value="Entrar">
                     </div>
                 </form> 
             </div>

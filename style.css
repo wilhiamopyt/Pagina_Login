@@ -5,10 +5,23 @@
 #topo{
     background-color: rgba(0, 0, 0, 0.753);
 }
-.container{
-   
-    margin-top: 15%;   
-}
+
+    
+
 #divcentral{
-    border-color: black solid 1%;
+    background-color:rgba(0, 0, 0, 0.753);;
+    padding: 50px;
+    width: 300px;
+    margin: 15%;
+    color: snow;
+}
+#botao{
+  
+   margin-left: 65%;
+   padding: 2%;
+   
+
+}
+#icone{
+    
 }
