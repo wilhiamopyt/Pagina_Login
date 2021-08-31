@@ -17,22 +17,14 @@
 </nav>
 <form action="">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center">
             <div class="col">
-                <input class="form-control" type="date">
+                <input class="form-control" type="text" placeholder="Titulo">
             </div>
             <div class="col">
-                <input class="form-control"type="text" placeholder="Descrição">      
-            </div>  
-            <div class="col">
-                <input class="form-control"type="number"placeholder="Valor">      
-            </div>
-            <div class="col">
-                <select class="form-select"name="Tipo" id="">                
-                    <option value="Boleto">Boleto</option>
-                    <option value="Dinheiro">Dinheiro</option>
-                </select>      
-            </div>
+                <textarea name="Descricao"class="form-control" id="" cols="30" rows="10" placeholder="Insira aqui a sua descrição"></textarea>
+                     
+            </div>                           
             <div class="col">
                 <input class="btn btn-outline-secondary"type="submit" value="Cadastrar">
         </div>              
