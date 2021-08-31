@@ -9,7 +9,7 @@
     
 
 #divcentral{
-    background-color:rgba(0, 0, 0, 0.753);;
+    background-color:rgba(0, 0, 0, 0.753);
     padding: 50px;
     width: 300px;
     margin: 15%;
@@ -23,5 +23,6 @@
 
 }
 #icone{
-    
+width: 1%;
+
 }

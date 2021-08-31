@@ -14,11 +14,12 @@
                 <img src="img/opyt.png" alt="" width="100px">
             </div>
         </nav>
-    </div>
-    <div class="container">
+        </div>
+        <div class="container">
         <div class="row justify-content-md-center" id="teste" >
-            <div id="divcentral" class="col col-lg-2">
-                <img src="img/person.svg" alt=""class="rounded mx-auto d-block" width="50px">
+            <div id="divcentral" class="col col-lg-2"> 
+               
+                  
                 <form action="dados.php"method="POST">
                     <div><label for="user">Usuario</label>
                     <input type="text" name="usuario" id=""/>
@@ -36,4 +37,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
-</html>?>
+</html>
